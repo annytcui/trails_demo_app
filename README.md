@@ -4,7 +4,7 @@ This is a demo app built with Ruby on Rails.
 
 ## Getting started
 
-To get started with the app, make sure you have postgreSQL installed.
+To get started with the app, make sure you have PostgreSQL installed.
 
 First, clone the repo and then install the needed gems:
 
@@ -20,8 +20,6 @@ $ psql
 # ALTER ROLE trails SUPERUSER;
 # \q
 ```
-
-> Note: to run the above commands correctly in PostgreSQL interactive terminal, semicolons are very important.
 
 Next, set up the database:
 
