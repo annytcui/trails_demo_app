@@ -12,15 +12,6 @@ First, clone the repo and then install the needed gems:
 $ bundle install --without production
 ```
 
-Then, log in PostgreSQL interactive terminal, create user "trails", and grant user "trails" with superuser privileges:
-
-```
-$ psql
-# CREATE USER trails WITH PASSWORD 'umich-trails';
-# ALTER ROLE trails SUPERUSER;
-# \q
-```
-
 Next, set up the database:
 
 ```
